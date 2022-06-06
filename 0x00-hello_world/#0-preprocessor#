@@ -1,0 +1,7 @@
+case  in
+    u)
+	
+	;;
+    
+#!/bin/bash
+gcc -E $CFILE -o c
