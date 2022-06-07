@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- *main - Outout text without the use of puts and printf
+ * main - prints  text without the use of puts and printf
  *
- *Returns: Always 1 (Successful)
+ * Return: returns 1
  */
 int main(void)
 {
