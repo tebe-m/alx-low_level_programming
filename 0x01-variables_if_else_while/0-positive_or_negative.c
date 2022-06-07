@@ -24,9 +24,10 @@ int main(void)
 		{
 			printf("is positive");
 		}
-	break;
 	}
 	else
+	{
 		printf("is negative");
+	}
 	return (0);
 }
