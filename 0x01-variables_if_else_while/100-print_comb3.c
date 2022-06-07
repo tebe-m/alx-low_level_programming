@@ -6,26 +6,27 @@
  */
 int main(void)
 {
-	int number_left;
-	int number_right;
+	int c, i;
 
-	for (number_left = 48 ; number_right <= 78 ; number_left++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (number_right = number_left + 1 ; number_right <= 78 ; number_right++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(number_left);
-			putchar (number_right);
-
-			if ((number_left == 56) && (number_right == 78))
+			if (c < i)
 			{
-				break;
-			}
+				putchar(c);
+				putchar(i);
 
-			putchar(',');
-			putchar (' ');
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 
 	putchar('\n');
+
 	return (0);
 }
