@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.ih"
 
 /**
  *print_alphabet - prints the alphabet, in lowercase, followed by a new line.
@@ -12,7 +12,7 @@ void print_alphabet(void)
 	while(alphabet <= 'z')
 	{
 		_putchar (alphabet);
-		alphabet++  ;
+		alphabet++;
 	}
 
 	_putchar ('\n');
