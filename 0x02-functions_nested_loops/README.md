@@ -1,5 +1,5 @@
 # 0x02. C - Functions, nested loops
-## This repo contains a list of programs for testing customer functions and loops
+## This repo contains a list of programs for testing custom functions and loops
 0-putchar.c - prints _putchar.  
 1-alphabet.c - prints the alphabet, in lowercase, followed by a new line. 
 2-print_alphabet_x10.c - prints 10 times the alphabet, in lowercase, followed by a new line.  
