@@ -4,7 +4,7 @@
  *_isupper - checks if char is upper case or lower case
  *
  * @c: fucton parameter
- * Returns: 1 if true 0 if false
+ * Return: 1 if true 0 if false
  */
 int _isupper(int c)
 {
