@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *reset_to_98: sets the value of input var adress to 98 using dereferencing
+ * reset_to_98 - sets the value of input var adress to 98 using dereferencing
  *
- *return: has no return
+ * @n: points to the adress of the var that will be dereferenced
+ * return: has no return
  */
 void reset_to_98(int *n)
 {
