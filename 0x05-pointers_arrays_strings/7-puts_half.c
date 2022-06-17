@@ -2,29 +2,27 @@
 
 /**
  *puts_half - prints every other character of a string
- *@str: A pointer to an int that will be changed
+ *@str: address if the int that will be used as input
  *
- *Return: void which means our answer is correct
+ *Return: nothing is returned
  */
-
 void puts_half(char *str)
 
 {
-int i, last;
+	int i, n;
 
-i = 0;
-while (str[i] != '\0')
-{
-i++;
-}
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
 
-last = (i + 1) / 2;
+	n = (i + 1) / 2;
 
-for (i = last; str[i]; i++)
-{
-_putchar (str[i]);
-}
+	for (i = n; str[i]; i++)
+	{
+		_putchar (str[i]);
+	}
 
-_putchar ('\n');
-
+	_putchar ('\n');
 }
