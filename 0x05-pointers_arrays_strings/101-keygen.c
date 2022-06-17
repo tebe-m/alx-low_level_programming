@@ -8,9 +8,12 @@
 int main(void)
 {
 	int num;	
+	time_t t;
 
-	srand(time(0));
-	num = rand();
+	num = 0;
+	srand((unsigned int) time(&t));
+	
+	num = rand() % 128;
 	printf("%d\n", num);
 
 	return (0);
