@@ -1,0 +1,16 @@
+# Object file
+*.o 
+
+# All test main files
+*main.c
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
