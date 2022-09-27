@@ -1,7 +1,8 @@
 # Object file
 *.o 
 
-# All test main files
+# All test supplimentary files
+_putchar.c
 *main.c
 
 # Compiled Static libraries
@@ -13,4 +14,4 @@
 # Executables
 *.exe
 *.out
-*.app
+*.app 
